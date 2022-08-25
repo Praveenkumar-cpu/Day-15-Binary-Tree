@@ -21,7 +21,12 @@ public class BinaryTreeMain {
         root = b1.insert(root, 11);
         root = b1.insert(root, 67);
 
-
         b1.print(root);
+
+        System.out.println(b1.nodePresent(root, 63));
+        if (root != null)
+            System.out.println("Element 63 is present in the binary tree");
+        else
+            System.out.println("Element 63 is not present in the binary tree");
     }
 }
